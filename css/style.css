@@ -1,0 +1,43 @@
+body{
+    padding: 0px !important;
+    font-family: 'Josefin Sans', sans-serif ;
+    text-align: center;
+}
+header{
+    background-color: #E67ACC;
+    color: #61164F;
+}
+
+h1{
+    font-style: italic;
+    font-size: 3em;
+}
+.linknav{                         /*istruzioni per classe con .nomeclass*/
+    color: #61164F;
+}
+.active{
+    color: #E67ACC;
+background-color: white;
+}
+nav ul li {
+    display: inline-block;
+}
+header, section {
+    padding: 3% 3% 0 3%;
+}
+#home {                             /*istruzioni su un identificativo con #nomeid*/
+    height: 500px;
+    width: auto;
+}
+.nounderline{
+    text-decoration: none !important;
+    padding: 10px 10px 0px 10px;
+    border-radius: 3px 3px 0px 0px;
+}
+img{
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+}
+img:hover{
+    opacity: 0.5;
+}
